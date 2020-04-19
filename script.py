@@ -2,7 +2,7 @@ import urllib2
 import re
 import urllib
 
-#connecting to a URL
+#connect to a URL
 course = "gre"
 url = "https://"+course+".magoosh.com/lessons"
 website = urllib2.urlopen(url)
